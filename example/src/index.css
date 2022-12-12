@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5vmin;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 32px;
+}
+
+.header__inner {
+  background-color: #26387f;
+  border-radius: 0 0 8px 8px;
+  padding: 8px 16px;
+}
+
+pre {
+  white-space: break-spaces;
+  word-break: break-word;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+   
+}
+
+.spacer {
+  margin: 20px 0px;
+}
+
+.header__inner ul {
+  color: #FEFEFE;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.header__inner li {
+  list-style: none;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.header__inner li:hover {
+  color:#fb70f2;
+}
+
+
+.google-button-container {
+  max-width: 200px;
+  min-width: 200px;
+}
+
+.custom-code-button {
+  background-color: #fbfdfe;
+  color: black;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+.custom-token-button {
+  background-color: #EA4C89;
+  color: #ffffff;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 6px 16px;
+  cursor: pointer;
+}

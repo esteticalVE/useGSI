@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html --no-cache"
+  },
+  "dependencies": {
+    "react": "file:../node_modules/react",
+    "react-dom": "^18.0.0",
+    "use-gsi": "file:.."
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "parcel": "2.5.0",
+    "typescript": "^4.6.3"
+  },
+  "alias": {
+    "react": "./node_modules/react",
+    "use-gsi": "../dist"
+  }
+}
